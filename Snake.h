@@ -23,3 +23,10 @@ class COORD
             Y=y;
         }
 };
+
+
+class Snake{
+ COORD pos;
+ 
+
+};
