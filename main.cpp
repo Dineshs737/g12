@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include<Snake.h>
 
 #define WIDHT 40
 #define HEIGHT 40
@@ -6,6 +7,7 @@
 #define W  SIZE*WIDHT
 #define H  SIZE*HEIGHT
 
+Snake snake(W/2,H/2);
 
 using namespace sf;
 int main()
