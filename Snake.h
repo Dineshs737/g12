@@ -26,7 +26,15 @@ class COORD
 
 
 class Snake{
- COORD pos;
+
+private:
+     COORD pos;
+
+     char dir ;
+
+     int leaght;
+public:
+    
  
 
 };
